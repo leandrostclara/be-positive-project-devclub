@@ -1,2 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+header nav ul {
+    display: flex;
+    padding: 70px;
+}
+
+header nav ul li {
+    margin-right: 32px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header nav ul li a:hover {
+    font-weight: 700;
+}
+
+#signup {
+    padding: 13px 28px;
+    background: radial-gradient(circle, rgba(111,191,68,1) 0%, rgba(111,191,68,1) 100%);
+    border: solid 1px #4CB538;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.content {
+    width: 500px;
+    margin-left: 80px;
+    padding-top: 80px;
+}
+
+.content h1 {
+    font-size: 62px;
+    font-weight: 700;
+    color: #161A49;
+    line-height: 82px;
+}
+
+.content p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 450px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.content a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #6FBF44;
+}
